@@ -13,3 +13,9 @@ TODO: Editar values.yaml para que se ciña a los archivos que he creado
 ```bash
 helm install <name> jenkins/jenkins-operator -n <your-namespace> --values values.yaml
 ```
+
+## Deploy Jenkins to Kubernetes
+
+```bash
+kubectl create -f jenkins_instance.yaml
+```
